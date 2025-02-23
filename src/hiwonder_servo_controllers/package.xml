@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>hiwonder_servo_controllers</name>
+  <version>0.0.0</version>
+  <description>The hiwonder_servo_controllers package ported to ROS 2.</description>
+
+  <!-- One maintainer is required -->
+  <maintainer email="lucas@todo.todo">lucas</maintainer>
+
+  <!-- License -->
+  <license>TODO</license>
+
+  <!-- Build tool: for a Python package use ament_python -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Dependencies: Update dependencies to their ROS 2 equivalents when available. -->
+  <!-- For Python code, you'll use rclpy instead of rospy. -->
+  <depend>rclpy</depend>
+  <depend>control_msgs</depend>
+  <depend>diagnostic_msgs</depend>
+  <depend>hiwonder_servo_msgs</depend>
+  <depend>hiwonder_servo_driver</depend>
+  <depend>std_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <!-- If you used actionlib in ROS 1, in ROS 2 you likely need to use action_msgs or the specific interfaces -->
+  <depend>action_msgs</depend>
+
+  <!-- Export the build type -->
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
